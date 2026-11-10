@@ -1,14 +1,14 @@
 from pathlib import Path
 
 
-def indlæs_logs():
-    logfil = Path(file).parent / "cyber_security_log_sample.txt"
-    with logfil.open("r", encoding="utf-8") as fil:
+def load_logs():
+    logfile = Path(__file__).parent / "cyber_security_log_sample.txt"
+    with logfile.open("r", encoding="utf-8") as fil:
         return fil.read().splitlines()
 
 
-if name == "main":
-    logs = indlæs_logs()
-    print(f"Indlæst {len(logs)} loglinjer.")
-    for linje in logs[:5]:
-        print(linje)
+if __name__ == "__main__":
+    logs = load_logs()
+    print(f"Load {len(logs)} loglines.")
+    for line in logs[:5]:
+        print(line)
