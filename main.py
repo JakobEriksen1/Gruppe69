@@ -9,6 +9,7 @@ def load_logs():
 
 if __name__ == "__main__":
     logs = load_logs()
-    print(f"Load {len(logs)} loglines.")
-    for line in logs[:5]:
-        print(line)
+    print(f"Loaded {len(logs)} loglines.")
+
+
+
