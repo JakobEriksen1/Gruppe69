@@ -41,13 +41,17 @@ if __name__ == "__main__":
         host.append(types[5].split("=")[1])
         port.append(types[6].split("=")[1])
         status.append(types[7].split("=")[1])
-        msg.append(types[8].split("msg")[1])
+        msg.append(types[8].split("msg=")[1].strip('"'))
 
 
 fig = go.Figure(data=[go.Table(
+
     header=dict(values=["Dato", "Tid", "Level", "Event", "User", "IP", "Host", "Port", "Status", "Message"]),
 
     cells=dict(values=[date, time, level, event, user, ip, host, port, status, msg])
 )])
+
+
+
 fig.show()
 
