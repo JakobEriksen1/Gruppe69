@@ -30,5 +30,6 @@ fig = go.Figure(data=[go.Table(
 
     cells=dict(values=[date, time, level, event, user, ip, host, port, status, msg])
 )])
+fig.show(renderer="browser")
 
 fig.show()
