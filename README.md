@@ -38,7 +38,14 @@ Task Board
 Vi har brugt et Task Board på Jira til at holde styr på vores opgaver.
 
 Konklusion
-Vi har arbejdet med at udvikle et Python-program, der kan indlæse, vise og analysere VPN-logdata.
-Vi har brugt tabeller og diagrammer til at skabe et bedre overblik over dataene.
-Vi har også brugt SCRUM til at organisere vores arbejde og holde styr på projektets opgaver.
-Programmet kan videreudvikles med flere funktioner og bedre muligheder for at finde mistænkelig aktivitet.
+3. Konklusion
+
+I dette projekt har vi udviklet et Python-program til Bumle Business, der kan indlæse, vise og analysere VPN-logdata. Programmet har en menu, hvor brugeren kan vælge mellem en tabel over hele loggen, et søjlediagram over mislykkede loginforsøg pr. IP-adresse og et cirkeldiagram over fordelingen af log levels. Koden er delt op i flere filer, så indlæsning af data og de enkelte analyser er adskilt.
+
+Det vigtigste resultat er, at diagrammerne gør det nemt at se mønstre, som er svære at finde i selve logfilen. Søjlediagrammet viser hurtigt, hvilke IP-adresser der har mange fejlede logins, hvilket kan være tegn på et brute force-angreb. Cirkeldiagrammet giver et overblik over, hvor mange af hændelserne der er almindelige informationer, advarsler eller fejl.
+
+Vi har brugt SCRUM til at planlægge arbejdet i mindre opgaver og holde styr på, hvem der lavede hvad.
+
+Programmet kan forbedres på flere måder. Det kan få bedre fejlhåndtering, så det ikke går ned ved ufuldstændige loglinjer. Det kan analysere, hvornår loginforsøgene sker, så man kan opdage mange fejl inden for kort tid. Det kan også give automatiske advarsler om mistænkelige IP-adresser og have flere filtreringsmuligheder.
+
+Samlet set er programmet et godt udgangspunkt for at overvåge og analysere VPN-aktivitet.
