@@ -38,7 +38,6 @@ Task Board
 Vi har brugt et Task Board på Jira til at holde styr på vores opgaver.
 
 Konklusion
-3. Konklusion
 
 I dette projekt har vi udviklet et Python-program til Bumle Business, der kan indlæse, vise og analysere VPN-logdata. Programmet har en menu, hvor brugeren kan vælge mellem en tabel over hele loggen, et søjlediagram over mislykkede loginforsøg pr. IP-adresse og et cirkeldiagram over fordelingen af log levels. Koden er delt op i flere filer, så indlæsning af data og de enkelte analyser er adskilt.
 
