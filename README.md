@@ -36,3 +36,9 @@ De beskriver, hvad de forskellige funktioner skal kunne, før de er færdige.
 
 Task Board
 Vi har brugt et Task Board på Jira til at holde styr på vores opgaver.
+
+Konklusion
+Vi har arbejdet med at udvikle et Python-program, der kan indlæse, vise og analysere VPN-logdata.
+Vi har brugt tabeller og diagrammer til at skabe et bedre overblik over dataene.
+Vi har også brugt SCRUM til at organisere vores arbejde og holde styr på projektets opgaver.
+Programmet kan videreudvikles med flere funktioner og bedre muligheder for at finde mistænkelig aktivitet.
