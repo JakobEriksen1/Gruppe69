@@ -1,4 +1,4 @@
-Bumble Business
+Bumle Business
 
 Introduktion
 Vi har udviklet dette projekt på baggrund af virksomheden Bumle Business,
